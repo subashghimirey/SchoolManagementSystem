@@ -46,6 +46,7 @@ ios/Runner.xcworkspace/
 ios/Flutter/engine/
 
 # Firebase related (ensure no sensitive keys)
+lib/firebase_options.dart
 firebase_messaging/  # if using Firebase Messaging
 google-services.json  # Firebase JSON config for Android
 GoogleService-Info.plist  # Firebase plist for iOS
