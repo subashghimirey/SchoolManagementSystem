@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711050661583",
+    "project_id": "smsapp-9b81e",
+    "storage_bucket": "smsapp-9b81e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711050661583:android:710bdde35f35604015f1ba",
+        "android_client_info": {
+          "package_name": "com.example.sms_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWTAqJ2LtO9W_AKgxvG0k8kQqwNsS61B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

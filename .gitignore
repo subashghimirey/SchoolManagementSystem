@@ -1,0 +1,66 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.build/
+# Android specific
+android/.gradle/
+android/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS specific
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Flutter/engine/
+
+# Firebase related (ensure no sensitive keys)
+firebase_messaging/  # if using Firebase Messaging
+google-services.json  # Firebase JSON config for Android
+GoogleService-Info.plist  # Firebase plist for iOS
+
+# Flutter build artifacts
+/build/
+
+# Local configuration files
+*.keystore  # for Android signing keys (if you are using a keystore)
+*.jks         # Java keystore
+*.p12         # SSL certificates or private keys (keep these private)
+
+# Project-specific sensitive files (e.g., secrets or credentials)
+.env            # environment variables files (dotenv)
+*.env           # all .env files
+
+# Mac specific
+*.swp           # swap files from text editors like Vim
