@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';// Assuming you have LaunchScreen
 import 'package:sms_app/firebase_options.dart';
-import 'package:sms_app/screens/launch_screen.dart.dart';
+import 'package:sms_app/screens/students/launch_screen.dart.dart';
 import 'package:sms_app/widgets/bottom_nav_bar.dart';
 
 void main() async {

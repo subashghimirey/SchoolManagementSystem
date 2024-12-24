@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sms_app/screens/classes/class_list_screen.dart';
+import 'package:sms_app/screens/students/multiple.dart';
+import 'package:sms_app/screens/students/student_details.dart';
+import 'package:sms_app/screens/teachers/add_teachers.dart';
+import 'package:sms_app/screens/teachers/teachers_screen.dart';
 import 'package:sms_app/widgets/dashboard_card.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -62,19 +67,25 @@ class DashboardScreen extends StatelessWidget {
                     title: 'Students',
                     description: 'Manage student profiles and records',
                     icon: Icons.person,
-                    onTap: () => Navigator.pushNamed(context, '/students'),
+                    onTap: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => StudentListScreen())),
                   ),
                   DashboardCard(
                     title: 'Teachers',
                     description: 'Access teacher profiles and schedules',
                     icon: Icons.school,
-                    onTap: () => Navigator.pushNamed(context, '/teachers'),
+                    onTap: () => Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => TeacherListScreen())),
                   ),
                   DashboardCard(
                     title: 'Classes',
                     description: 'View and manage class schedules',
                     icon: Icons.class_,
-                    onTap: () => Navigator.pushNamed(context, '/classes'),
+                    onTap: () => Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ClassListScreen())),
                   ),
                   DashboardCard(
                     title: 'Attendance',
